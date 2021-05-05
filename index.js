@@ -1,8 +1,8 @@
 const cron = require('node-cron');
 const express = require('express');
-const cowinService = require('./src/service/cowin-service');
+const cowinService = require('./src/service/cowinService');
+const notificationService = require('./src/service/notificationService');
 const checkFreeSlots = require('./src/checkSlots/checkFreeSlots');
-const notificationService = require('./src/service/notification-service');
 
 const app = express();
 
