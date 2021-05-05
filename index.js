@@ -18,7 +18,7 @@ cron.schedule('* * * * *', function() {
     cowinService.getVaccineDetails()
         .then((centersData)=> {
             if (checkFreeSlots.checkIfSlotsAreAvailable(centersData)) {
-                notificationService.notifyMe('', 'amylokh@gmail.com');
+                notificationService.notifyMe('myPhoneNo', 'amylokh@gmail.com', 'TODO: vaccination center details');
                 console.log('Found free slot');
             }
             else {

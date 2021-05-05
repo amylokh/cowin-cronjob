@@ -4,7 +4,7 @@ AWS.config.update({region: 'us-east-2'});
 var credentials = new AWS.SharedIniFileCredentials({profile: 'personal-account'});
 AWS.config.credentials = credentials;
 
-const notifyMe = (phoneNo, email)=> {
+const notifyMe = (phoneNo, email, data)=> {
     var params = {
         Destination: { /* required */
           ToAddresses: [
