@@ -28,13 +28,6 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
     $ npm install
 
 ---
-
-## Install
-
-    $ git clone https://github.com/YOUR_USERNAME/PROJECT_TITLE
-    $ cd cowin-cronjob
-    $ npm install
-
 ## Configure app
 
 Open `.aws/credentials` file & check if you have got the right access key & secret key to use the AWS SES. You will need:
@@ -45,7 +38,7 @@ Open `.aws/credentials` file & check if you have got the right access key & secr
 ## Running the project
 
     $ npm start
-
+---
 ## TO DO
 - This project needs a lot of refactoring
 - Need to make the districts dynamic
