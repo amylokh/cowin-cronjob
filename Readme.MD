@@ -46,7 +46,7 @@ Open `.aws/credentials` file & check if you have got the right access key & secr
 
     $ npm start
 
-## Note
+## TO DO
 - This project needs a lot of refactoring
 - Need to make the districts dynamic
 - Need to convert the email in some sort of function params
