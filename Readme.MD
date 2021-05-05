@@ -45,3 +45,4 @@ Open `.aws/credentials` file & check if you have got the right access key & secr
 - Need to convert the email in some sort of function params
 - Make error-proof
 - Send the complete details of vaccination center in the email
+- Implement loggers
