@@ -5,35 +5,20 @@ A cron job which runs every minute to check if there are any free vaccine slots 
 ---
 ## Requirements
 
-For development, you will only need Node.js and a node global package, Yarn, installed in your environement.
+For development, you will only need Node.js and a node global package, installed in your environement.
 
-### Node
-Please try to use node v14.15.1
-
-If the installation was successful, you should be able to run the following command.
-
-    $ node --version
-    v14.15.1
-
-    $ npm --version
-    6.14.8
-
-If you need to update `npm`, you can make it using `npm`! Cool right? After running the following command, just open again the command line and be happy.
-
-    $ npm install npm -g
-
-###
-### Install dependencies
+---
+## Install dependencies
 
     $ npm install
 
 ---
 ## Configure app
 
-Open `.aws/credentials` file & check if you have got the right access key & secret key to use the AWS SES. You will need:
+Open `.aws/credentials` file & check if you have got the right access key & secret key to use the AWS SES which will send the email notification. You will need:
 
-- AWS settings & credentials;
-- Your own verified emails in AWS SES;
+- AWS access_key & secret_key & credentials;
+- Your own verified emails in AWS SES so that the emails can be sent;
 
 ## Running the project
 
@@ -46,3 +31,16 @@ Open `.aws/credentials` file & check if you have got the right access key & secr
 - Make error-proof
 - Send the complete details of vaccination center in the email
 - Implement loggers
+- Any other improvements
+
+---
+### Node
+Please try to use node v14.15.1
+
+If the installation was successful, you should be able to run the following command.
+
+    $ node --version
+    v14.15.1
+
+    $ npm --version
+    6.14.8
