@@ -6,7 +6,7 @@ A cron job which runs every minute to check if there are any free vaccine slots 
 
 ## Note
 
-Currently this program works only for my District - Amravati. You can make it work for your district by updating it with your district number
+Currently this service works only for my District - Amravati. You can make it work for your district by updating it with your district number
 
 ---
 ## Requirements
