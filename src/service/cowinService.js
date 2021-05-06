@@ -8,7 +8,6 @@ const getVaccineDetails = () => {
     const currMonth = dateTime.getMonth() + 1;
     const currYear = dateTime.getFullYear();
     const fullDate = currDate + "-" + currMonth + "-" + currYear
-    console.log('Full date: '+fullDate);
 
     const headers = {
         'Content-Type': 'application/json',
