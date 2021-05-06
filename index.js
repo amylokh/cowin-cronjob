@@ -12,9 +12,12 @@ app.listen(PORT, () => {
     console.log(`Server is running on PORT ${PORT}`);
 });
 
-// cron job which runs every minute to check if the vaccine is available
+const dateTime = new Date();
+
+// cron job which runs every 4 minute to check if the vaccine slot is available
 cron.schedule('* * * * *', function() {
     console.log('Fetching vaccination center details...');
+    console.log('Current time: '+ dateTime.getHours() + ':' + dateTime.getMinutes()+':'+dateTime.getSeconds());
     cowinService.getVaccineDetails()
         .then((centersData)=> {
             if (checkFreeSlots.checkIfSlotsAreAvailable(centersData)) {
