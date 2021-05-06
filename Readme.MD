@@ -26,9 +26,12 @@ Open `.aws/credentials` file & check if you have got the right access key & secr
 - AWS access_key & secret_key & credentials;
 - Your own verified emails in AWS SES so that the emails can be sent;
 
-## Running the project
+## Steps to run the project
 
-    $ npm start
+ - Update the district number according to your needs in cowinService.js
+ - Update the source email & to email according to your needs in notificationService.js
+ - Then just run `npm start`
+
 ---
 ## TO DO
 - This project needs a lot of refactoring
