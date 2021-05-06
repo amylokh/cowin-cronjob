@@ -13,7 +13,7 @@ app.listen(PORT, () => {
 });
 
 
-// cron job which runs every 4 minute to check if the vaccine slot is available
+// cron job which runs every minute to check if the vaccine slot is available
 cron.schedule('* * * * *', function() {
     const dateTime = new Date();
     console.log('Fetching vaccination center details...');
