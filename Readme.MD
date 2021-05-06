@@ -28,8 +28,8 @@ Open `.aws/credentials` file & check if you have got the right access key & secr
 
 ## Steps to run the project
 
- - Update the district number according to your needs in cowinService.js
- - Update the source email & to email according to your needs in notificationService.js
+ - Update the district number according to your need in cowinService.js
+ - Update the source email & to email according to your need in notificationService.js
  - Then just run `npm start`
 
 ---
