@@ -1,6 +1,6 @@
 # Cowin Cron Job
 
-A cron job which runs every minute to check if there are any free vaccine slots available & if there are, then notifies you on email
+A cron job which runs every minute to check if there are any free vaccine slots available & notifies you on email when free slots are available
 
 ---
 
